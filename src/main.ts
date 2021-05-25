@@ -1,3 +1,6 @@
 import './style.scss';
+import { App } from './components/App';
 
-import './app/index';
+const app = document.getElementById('app');
+
+console.log('app', app);
